@@ -44,9 +44,10 @@ header {
 }
 
 .informacoes img {
+    margin-top: 16px;
     border-radius: 50%;
     border: 5px solid var(--color-white);
-    height: 350px;
+    height: 300px;
 }
 
 .informacoes h2 {
