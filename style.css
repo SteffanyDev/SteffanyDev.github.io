@@ -27,7 +27,7 @@ header {
 }
 
 .menu a {
-    font-size: 24.88px;
+    font-size: 18px;
     color: var(--color-white);
     text-decoration: none;
     margin: 0 16px;
@@ -46,35 +46,35 @@ header {
 .informacoes img {
     border-radius: 50%;
     border: 5px solid var(--color-white);
-    height: 450px;
+    height: 350px;
 }
 
 .informacoes h2 {
     margin-top: 16px;
-    font-size: 58.92px;
-    line-height: 68.92px;
+    font-size: 50px;
+    line-height: 60px;
     font-weight: 700;
 }
 
 .informacoes h4 {
     margin-top: 8px;
-    font-size: 33.16px;
-    line-height: 43.16px;
+    font-size: 28px;
+    line-height: 38px;
     font-weight: 500;
 }
 
 .informacoes p {
     max-width: 500px;
     margin: 8px auto;
-    font-size: 18.66px;
-    line-height: 28.66px;
+    font-size: 18px;
+    line-height: 28px;
     font-weight: 400;
 }
 
 .informacoes p a {
     color: var(--color-yellow);
-    font-size: 18.66px;
-    line-height: 28.66px;
+    font-size: 18px;
+    line-height: 28px;
     font-weight: 400;
     text-decoration: none;
 }
