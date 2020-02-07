@@ -79,3 +79,94 @@ header {
     font-weight: 400;
     text-decoration: none;
 }
+
+.info-section {
+    margin-top: 32px;
+    text-align: center;
+}
+
+.cards {
+   margin: 32px auto;
+   max-width: 800px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 32px;
+}
+
+.card {
+    
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h4 {
+    margin-top: 8px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+@media only screen and (max-device-width: 500px) {
+    .menu {
+        text-align: center;
+    }
+
+    .menu a {
+        font-size: 18px;
+        color: var(--color-white);
+        text-decoration: none;
+        margin: 0 8px;
+    }
+
+    .informacoes {
+        text-align: center;
+        padding: 32px;
+    }
+    
+    .informacoes img {
+        margin-top: 8px;
+        border-radius: 50%;
+        border: 2px solid var(--color-white);
+        height: 200px;
+    }
+    
+    .informacoes h2 {
+        margin-top: 8px;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+    }
+    
+    .informacoes h4 {
+        margin-top: 8px;
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 500;
+    }
+    
+    .informacoes p {
+        max-width: 500px;
+        margin: 8px auto;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+    }
+    
+    .informacoes p a {
+        color: var(--color-yellow);
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+}
