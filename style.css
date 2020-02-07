@@ -80,6 +80,27 @@ header {
     text-decoration: none;
 }
 
+.redes-sociais {
+    text-align: center;
+    padding: 32px;
+}
+
+.redes-sociais a {
+    color: var(--color-white);
+    margin: 0 8px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    text-decoration: none;
+    border-bottom: 1px solid var(--color-yellow);
+}
+
+.redes-sociais a:hover {
+    font-size: 20px;
+    color: var(--color-yellow);
+    border-bottom: 1px solid var(--color-white);
+}
+
 .info-section {
     margin-top: 32px;
     text-align: center;
