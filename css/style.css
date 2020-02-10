@@ -22,8 +22,10 @@ header {
     padding: 16px;
 }
 
-.menu {
-    text-align: center;
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
 
 .menu a {
@@ -40,7 +42,7 @@ header {
 
 .informacoes {
     text-align: center;
-    padding: 32px;
+    margin-top: 20px;
 }
 
 .informacoes img {
@@ -82,7 +84,13 @@ header {
 
 .redes-sociais {
     text-align: center;
-    padding: 32px;
+    margin-top: 50px;
+}
+
+.redes-sociais ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
 
 .redes-sociais a {
@@ -93,17 +101,32 @@ header {
     font-weight: 400;
     text-decoration: none;
     border-bottom: 1px solid var(--color-yellow);
+    transition: .3s;
 }
 
-.redes-sociais a:hover {
-    font-size: 20px;
+.redes-sociais ul li:hover {
+    transform: scale(1.1);
+}
+
+.redes-sociais ul li a:hover {
     color: var(--color-yellow);
-    border-bottom: 1px solid var(--color-white);
 }
 
 .info-section {
     margin-top: 32px;
     text-align: center;
+}
+
+.card {
+    border: solid 1px #f2f2ff;
+    background-color: #f2f2ff;
+    color: #363636;
+    transition: .3s;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 15px #f2f2ff;
+    transform: scale(1.1);
 }
 
 .cards {
@@ -112,10 +135,6 @@ header {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
    gap: 32px;
-}
-
-.card {
-    
 }
 
 .card img {
@@ -135,6 +154,44 @@ header {
     line-height: 24px;
     font-weight: 500;
     text-align: center;
+}
+
+.swingHorizontal{
+    color: #474E51;
+}
+
+.swingHorizontal:hover
+{
+    animation: swingHorizontal 1s ease;
+    animation-iteration-count: 1;
+}
+
+@keyframes swingHorizontal
+{
+    15%
+    {
+        transform: translateX(5px);
+    }
+    30%
+    {
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        transform: translateX(3px);
+    }
+    65%
+    {
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        transform: translateX(2px);
+    }
+    100%
+    {
+        transform: translateX(0);
+    }
 }
 
 @media only screen and (max-device-width: 500px) {
@@ -218,10 +275,6 @@ header {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 32px;
-     }
-     
-     .card {
-         
      }
      
      .card img {

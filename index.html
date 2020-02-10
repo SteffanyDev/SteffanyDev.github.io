@@ -5,32 +5,43 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stéffany Caroline</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="./img/icon.ico" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
         <nav class="menu">
-            <a href="index.html">Home</a>
-            <a href="projetos.html">Projetos</a>
-            <a href="sobre.html">Sobre</a>
-            <a href="contato.html">Contato</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
         </nav>
     </header>
 
-    <section class="informacoes">
-        <img src="https://avatars2.githubusercontent.com/u/45576846?s=460&v=4" alt="">
+    <section class="informacoes" data-aos="fade-right">
+        <img src="https://avatars2.githubusercontent.com/u/45576846?s=460&v=4" alt="" class="swingHorizontal">
         <h2>Stéffany Caroline</h2>
         <h4>Estudante</h3>
-        <p>Desenvolvedora Front-End. <br> Assista minhas lives na <a href="https://www.twitch.tv/codigoste" target="_blank">Twitch</a></p>
+            <p>Desenvolvedora Front-End. <br> Assista minhas lives na <a href="https://www.twitch.tv/codigoste"
+                    target="_blank">Twitch</a></p>
     </section>
 
     <section class="redes-sociais">
-        <a href="https://www.linkedin.com/in/steffanydev/" target="_blank">Linkedin</a>
-        <a href="https://github.com/steffanydev" target="_blank">GitHub</a>
-        <a href="https://www.instagram.com/steffany.dev/" target="_blank">Instagram</a>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/steffanydev/" target="_blank">Linkedin</a></li>
+            <li><a href="https://github.com/steffanydev" target="_blank">GitHub</a></li>
+            <li><a href="https://www.instagram.com/steffany.dev/" target="_blank">Instagram</a></li>
+        </ul>
     </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
